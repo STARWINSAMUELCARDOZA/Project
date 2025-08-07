@@ -1,0 +1,25 @@
+Codechef
+Q3: Select col/* from table_name where rating>6 and rating<8
+
+code:
+select Movie from Cinema where Rating>7 and Rating<9
+
+Q4:Table name:Library
+code:
+select book_id, title,author,published_year from Library where rating is NULL
+
+Q5:Salary of Employees
+code:
+select emloyee_name,company,salary from Employees where category = 'Full-Time' order by salary desc
+
+Q6: Department of each employee
+code:
+select department, count(*) as
+	total_employee from Employees
+group by department;
+
+sub Query
+
+Q1) -- WA Query to give a employee schema with employee 
+-- table where we have attributes as employee_id,employee_name,
+-- salary,department_no, and insert atleast  values in the table consider employee_id as primary key
